@@ -1,0 +1,19 @@
+footer {
+  background-color: #6dcca3;
+  min-height: 157px;
+}
+
+.main-home{
+  background-image: url("medimize-homepage-photo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-footer a span {
+  display: block;
+}
