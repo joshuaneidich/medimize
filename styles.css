@@ -97,6 +97,9 @@ nav ul {
   padding-top: 40px;
 }
 
+.column2 {
+  margin-right: 20px;
+}
 
 .column1 h2, .column2 h2 {
   margin-top: 0;
@@ -109,6 +112,7 @@ nav ul {
   width: 90%;
   flex-wrap: wrap;
 }
+
 img {
   max-height: 420px;
   max-width: 420px;
@@ -183,7 +187,9 @@ footer{
 
 /*page specific*/
 
-
+.affiliations-column p{
+  margin-top: 0;
+}
 .main-home{
   background-image: url("medimize-homepage-photo.jpg");
   background-position: center;
@@ -308,15 +314,33 @@ footer{
 
 /* Tablets and small desktop */
 @media all and (min-width: 768px) and (max-width: 979px) {
-
+  .logo img {
+    max-width: 350px;
+  }
 }
 
 /* Phone in landscape mode, small tablet */
 @media all and (max-width: 767px) {
+  .logo img {
+    float: none;
+  }
 
+  nav {
+    float: none;
+  }
+
+  main{
+    margin-top: auto;
+  }
 }
 
 /* Smaller Phone, phone in portrait mode */
 @media all and (max-width: 480px) {
+  main{
+    margin-top: auto;
+  }
 
+  nav {
+    float: none;
+  }
 }
