@@ -120,7 +120,7 @@ img {
 }
 
 .column1, .column2 {
-  max-width: 35%;
+  max-width: 300px;
   margin-left: 50px;
   margin-top: 10px;
 }
@@ -188,7 +188,9 @@ footer{
 
 /*page specific*/
 
-
+.main-home{
+  margin-bottom: auto;
+}
 
 .solutions-patients{
   color: #abe2ca;
@@ -330,16 +332,29 @@ footer{
 }
 
 /* Tablets and small desktop */
-@media all and (min-width: 768px) and (max-width: 979px) {
+@media all and (min-width: 878px) and (max-width: 979px) {
   .logo img {
     max-width: 350px;
+  }
+  .column1, .column2 {
+    max-width: 250px;
+    margin-left: 70px;
+    margin-top: 10px;
   }
 }
 
 /* Phone in landscape mode, small tablet */
-@media all and (max-width: 767px) {
+@media all and (max-width: 877px) {
   .logo img {
     float: none;
+  }
+  .column1, .column2 {
+    max-width: 350px;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .main-content{
+    justify-content: space-around;
   }
 
   nav {
@@ -349,12 +364,41 @@ footer{
   main{
     margin-top: auto;
   }
+  .overlay
+  {
+    flex-wrap: wrap;
+  }
+
+  .box{
+    margin-top: 30px;
+    top: auto;
+  }
+
 }
 
 /* Smaller Phone, phone in portrait mode */
 @media all and (max-width: 480px) {
   main{
     margin-top: auto;
+  }
+
+  .box{
+    margin-top: 30px;
+    top: auto;
+  }
+
+  .overlay
+  {
+    flex-wrap: wrap;
+  }
+  .column1, .column2 {
+    max-width: 350px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .main-content{
+    justify-content: space-around;
   }
 
   nav {
