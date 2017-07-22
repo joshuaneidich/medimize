@@ -92,6 +92,7 @@ nav ul {
 
 /*main content*/
 
+
 .hero h1{
   margin-left: 15px;
   padding-top: 40px;
@@ -126,7 +127,7 @@ img {
 
 main {
   margin-top: -30px;
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 .hero{
@@ -186,6 +187,22 @@ footer{
 
 
 /*page specific*/
+
+
+
+.solutions-patients{
+  color: #abe2ca;
+  margin-top: 30px !important;
+}
+
+.solutions-payers{
+  color: #3d9be9;
+  margin-top: 30px !important;
+}
+
+.solutions-link{
+  text-decoration: none;
+}
 
 .affiliations-column p{
   margin-top: 0;
