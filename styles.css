@@ -26,11 +26,16 @@ header{
   min-height: 150px;
 }
 
+.column1 h2, .column2 h2 {
+  margin-top: 0;
+}
+
 .main-content{
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
   width: 90%;
+  flex-wrap: wrap;
 }
 img {
   max-height: 420px;
