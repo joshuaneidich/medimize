@@ -382,6 +382,15 @@ footer{
     margin-top: auto;
   }
 
+  footer{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .left-footer{
+    margin-left: 0;
+  }
+
   .box{
     margin-top: 30px;
     top: auto;
